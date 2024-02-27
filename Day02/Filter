@@ -1,0 +1,3 @@
+tree . > data
+grep "$1" data > filteredData
+rm -f data
