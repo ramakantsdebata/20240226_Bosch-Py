@@ -1,3 +1,13 @@
+## Object
+# Identity (funcion of address)
+#       id(x)
+# Type (of data it holds)
+#       type(x), type(int)
+# Value (it holds)
+#       x
+
+## Equality vs Equivalence
+
 # x = 10
 # print(id(x))
 
