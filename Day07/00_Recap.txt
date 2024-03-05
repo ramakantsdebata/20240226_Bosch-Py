@@ -1,0 +1,19 @@
+Python as a language
+Basic data types / int, float, Decimal, Fraction, Complex
+Control Flow - if-elif-else/match-case/loop-else
+Collections
+    Object (id(), type(), value)
+    Mutability
+    Types
+        Immutables
+            Number, String, Tuple, FrozenSets
+        Mutables
+            List, Sets, Dictionary
+            Key-value (Hash)
+Functions
+    Define Earlier
+    Arg Passing
+        Special args (/ *)
+    Scopes
+        locals(), globals()
+    Function Overloading
