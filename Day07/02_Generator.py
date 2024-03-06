@@ -31,10 +31,21 @@ def FibGen(n):
 # print(FibGen.__doc__)
     
 it = FibGen(10)
+print(type(it))
 
 try:
     while(True):
         print(next(it), end=" - ")
 except StopIteration:
     print("\nDone")
+
+print("#"*25)
+it1 = iter(FibGen(15))
+try:
+    while(True):
+        print(next(it1), end=" - ")
+except StopIteration:
+    print("\nDone")
+
+
 #endregion
