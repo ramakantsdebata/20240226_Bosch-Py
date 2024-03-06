@@ -52,7 +52,7 @@ class FibGen:
             raise StopIteration
         
 myFib = FibGen(10)
-myIter = iter(myFib)
+myIter = iter(myFib) # myFib._iter__()
 
 for x in myIter:
     print(x, end=" - ")
