@@ -13,5 +13,6 @@ print(len(string))
 result = re.fullmatch(r'.{285}', string)
 print(type(result), result)
 
+print("\nWith \w")
 result = re.fullmatch(r'\w{285}', string)
 print(type(result), result)
